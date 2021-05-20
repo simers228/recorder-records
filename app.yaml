@@ -1,0 +1,17 @@
+runtime: python38
+
+instance_class: f1
+
+env_variables:
+  MYSQL_USER : 'root'
+  MYSQL_PASSWORD: 'voIf0e6fOM4f3jPo'
+  MYSQL_DB: 'records'
+  MYSQL_HOST: '34.122.24.5'
+
+handlers:
+- url: /img
+  static_dir: static/img
+- url: /script
+  static_dir: static/script
+- url: /styles
+  static_dir: static/styles
